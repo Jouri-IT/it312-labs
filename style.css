@@ -36,7 +36,7 @@ line-height: 3em;
 }
 
 .sidebar ul {
-list-style-image: url(‘icon.png’);
+list-style-image: url(’../images/icon.png’);
 }
 
 #logo {
