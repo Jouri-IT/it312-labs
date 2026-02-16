@@ -1,0 +1,63 @@
+/* Task #2.1: Whole document font styling */
+body {
+font-family: Arial, sans-serif;
+font-size: 16px;
+line-height: 1.6;
+color: DarkBlue;
+}
+
+/* Task #2.2: h1 element styling */
+h1 {
+font-size: 28px;
+font-weight: bold;
+text-align: center;
+text-transform: uppercase;
+color: Chocolate;
+text-shadow: 0.2em 0.2em 0.1em silver;
+}
+
+/* Task #2.3: h2 elements color */
+h2 {
+color: brown;
+}
+
+/* Task #2.4: h3 in class “postContent” */
+.postContent h3 {
+color: BlueViolet;
+font-style: italic;
+}
+
+/* Task #2.5: navigation and sidebar styling */
+.navigation, .sidebar {
+font-weight: bold;
+line-height: 3em;
+}
+
+/* Task #2.6: footer styling */
+footer {
+font-size: small;
+font-weight: bold;
+text-align: center;
+line-height: 3em;
+}
+
+/* Task #2.7: sidebar list marker with image */
+.sidebar ul {
+list-style-image: url(‘icon.png’);
+}
+
+/* Task #2.8: logo image styling */
+#logo {
+width: 100px;
+}
+
+/* Task #4.12: All paragraphs blue */
+p {
+color: blue;
+}
+
+/* Task #2.9 & Task #4.13: Descendant selector for paragraphs inside article */
+article p {
+font-style: italic;
+color: darkgreen;
+}
