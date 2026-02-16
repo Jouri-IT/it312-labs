@@ -23,7 +23,7 @@ color: BlueViolet;
 font-style: italic;
 }
 
-.navigation, .sidebar {
+#navigation, #sidebar {
 font-weight: bold;
 line-height: 3em;
 }
@@ -36,7 +36,7 @@ line-height: 3em;
 }
 
 .sidebar ul {
-list-style-image: url(’../images/icon.png’);
+list-style-image: url('it312/images/icon’);
 }
 
 #logo {
